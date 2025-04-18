@@ -1,0 +1,46 @@
+--- Domande ----
+2. A
+3. B
+4.  A-3 B-3 C-2 D-1 E-3 F-2
+5. B
+6. A
+7. Vedere fFile RegoleFondamentaliDellOOP
+8. Esercizio
+9.Un DB relazionare e un db che organizza i dati in tabelle divise in righe e colonne, tabelle che possono essere collegate fra loro tramite le cosi dette relazioni , tramite l utilizzo di chiavi primarie PK e chiavi estere FK, per comunicare con python prima dovremmo installare la giusta libreria e poi collegare python al db tramite un codice di connessione, un esempio potrebbe essere sql light che per essere collegato fa cosi:
+  import sqlite3
+
+  # 1. Connessione al DB (se non esiste, viene creato)
+  conn = sqlite3.connect('mio_database.db')
+
+  # 2. Creazione di un cursore per eseguire comandi SQL
+  cur = conn.cursor()
+
+  #possibili query 
+
+  #chiusura della conessione
+  cur.close()
+  conn.close()
+10. C
+11. Join e un operazione sql che ti permette di unire dati da due o piu tabelle usando le cosi dette PK e FK per trovare le conessioni esempio di uno dei piu comuni INNER JOIN : 
+  SELECT clienti.nome, ordini.prodotto
+  FROM clienti
+  INNER JOIN ordini ON clienti.id = ordini.id_cliente;
+  Poi abbiamo il LEFT,RIGHT,FULL,CROSS JOIN
+12. Esercizio
+13. C
+14. L astrazione consiste consiste nel nascondere i dettagli interni a  dei funzionamenti di ogetti e mostrare solo cio che davvero rilevante, consiste praticamente nell usare qualcosa senza sapere veramente cosa fa, 
+  from abc import ABC, abstractmethod
+
+  class Forma(ABC):  # Classe astratta
+      @abstractmethod
+      def area(self):
+          pass
+
+      @abstractmethod
+      def descrizione(self):
+          pass
+15. in - Er - Poli - astra 
+16. Esercizio
+17. B
+18. NumPy e una libreria di python che serve per la programmazione scientifica e stata creata per gestire array multidimensionale e matematica ad alte prestazioni.
+20. La coerenza funzionale e cio che si riferisce a un comportamento prevedibile e ben definito  di un processo cio vol dire che dato lo un input sempre uguale ti restituira un risultato sempre uguale

@@ -5,7 +5,7 @@
 5. B
 6. A
 7. Vedere fFile RegoleFondamentaliDellOOP
-8. Esercizio
+8. https://github.com/CyrusVII/TestPython18.04
 9.Un DB relazionare e un db che organizza i dati in tabelle divise in righe e colonne, tabelle che possono essere collegate fra loro tramite le cosi dette relazioni , tramite l utilizzo di chiavi primarie PK e chiavi estere FK, per comunicare con python prima dovremmo installare la giusta libreria e poi collegare python al db tramite un codice di connessione, un esempio potrebbe essere sql light che per essere collegato fa cosi:
   import sqlite3
 
@@ -26,7 +26,7 @@
   FROM clienti
   INNER JOIN ordini ON clienti.id = ordini.id_cliente;
   Poi abbiamo il LEFT,RIGHT,FULL,CROSS JOIN
-12. Esercizio
+12. https://github.com/CyrusVII/TestPython18.04
 13. C
 14. L astrazione consiste consiste nel nascondere i dettagli interni a  dei funzionamenti di ogetti e mostrare solo cio che davvero rilevante, consiste praticamente nell usare qualcosa senza sapere veramente cosa fa, 
   from abc import ABC, abstractmethod

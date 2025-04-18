@@ -40,7 +40,7 @@
       def descrizione(self):
           pass
 15. in - Er - Poli - astra 
-16. Esercizio
+16. https://github.com/CyrusVII/TestPython18.04
 17. B
 18. NumPy e una libreria di python che serve per la programmazione scientifica e stata creata per gestire array multidimensionale e matematica ad alte prestazioni.
 20. La coerenza funzionale e cio che si riferisce a un comportamento prevedibile e ben definito  di un processo cio vol dire che dato lo un input sempre uguale ti restituira un risultato sempre uguale
